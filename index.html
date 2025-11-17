@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Linux Tutorial | Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="icon" href="src/img/nadeshiko/p5.jpg">
+</head>
+
+<body class="body">
+    <header>
+        <div class="nav_header">
+            <img class="img_header" src="src/img/nadeshiko/p2.jpg" alt="apakah ini my...">
+            <ul class="ul_header">
+                <li><a href="#" class="button_header">Home</a></li>
+                <li><a href="#" class="button_header">Microtik Tutorial</a></li>
+                <li><a href="#" class="button_header">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <div>
+        <h2 class="title_header">Linux Tutorial by Adit</h2>
+        <div class="all_box">
+            <!-- box 1 -->
+            <div class="box">
+                <h4 class="title_box">Change interfaces</h4>
+                <div>
+                    <code>nano /etc/network/interfaces <a class="green_command">//open file</a></code><br>
+                    <code><a class="green_command">//add this</a></code><br>
+                    <code>allow-hotplug enp0s8</code><br>
+                    <code>iface enp0s8 inet static</code><br>
+                    <code style="padding-left: 40px;">address [ip]/[sm] <a class="green_command">
+                        //ex: 192.168.21.1/24</a></code><br>
+                    <code style="padding-left: 40px;">netmask [ip] <a class="green_command">
+                        //ex: 255.255.255.0</a></code><br>
+                    <code style="padding-left: 40px;">gateway [ip] <a class="green_command">
+                        //ex: 192.168.21.1</a></code><br>
+                    <code><a class="green_command">//reset network</a><br>
+                    systemctl restart networking </code>
+                </div>
+            </div>
+            <!-- box 2 -->
+            <div class="box">
+                <h4 class="title_box">Setting isc-dhcp-server</h4>
+                <div>
+                    <code>nano /etc/default/isc-dhcp-server <a class="green_command">//open file</a><br>
+            interfaces="enp0s8" <a class="green_command">//change this</a></code>
+                </div>
+            </div>
+            <!-- box 3 -->
+            <div class="box">
+                <h4 class="title_box">Change repository</h4>
+                <div>
+                    <code>nano /etc/apt/sources.list <a class="green_command">//open file<br>
+            //ganti ke repo sekolah</a></code>
+                </div>
+            </div>
+            <!-- box 4 -->
+            <div class="box">
+                <h4 class="title_box">Setting dhcpd.conf</h4>
+                <div>
+                    <code>nano /etc/dhcp/dhcpd.conf <a class="green_command">//open file<br>
+                //hapus tulisan di bawah "A Slightly"<br>
+                //ganti semua oktet kecuali oktet ke 4</a></code>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <a>Copyright &copy; 2025 <a href="https://github.com/kazuoid" target="_blank"
+                    style="text-decoration: none;">KazuoID</a>
+            </a><br>
+            <a>anti AI AI ygy</a>
+        </div>
+    </footer>
+</body>
+
+</html>

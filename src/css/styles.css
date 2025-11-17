@@ -1,0 +1,81 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav_header {
+    /* margin: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: image-set("../img/nadeshiko/b1.jpg"); */
+    background: cadetblue;
+}
+
+.img_header {
+    height: 64px;
+    border-radius: 32px;
+    margin: 10px;
+}
+
+.ul_header {
+    display: ruby;
+    /* text-align: end; */
+}
+
+li {
+    padding: 22px;
+}
+
+li:hover {
+    background: burlywood;
+    border-radius: 26px;
+}
+
+.button_header {
+    text-decoration: none;
+    color: black;
+}
+
+.title_header {
+    text-align: center;
+    /* background: bisque; */
+    background: burlywood;
+    /* border-radius: 20000px; */
+    padding: 20px;
+    margin: 0px;
+}
+
+.all_box {
+    display: inline-table;
+    margin: 40px;
+    /* text-align: center; */
+}
+
+.box {
+    display: inline-grid;
+    padding: 20px;
+    background: beige;
+    margin: 16px;
+    /* text-align: left; */
+    border-radius: 20px;
+    padding-bottom: 44px;
+}
+
+.title_box {
+    text-align: center;
+}
+
+.green_command {
+    background: beige;
+    color: green;
+}
+
+.footer {
+    text-align: center;
+    /* display: grid; */
+    /* margin-top: 28px; */
+    /* margin: 26px; */
+    background: burlywood;
+    padding: 20px;
+}
