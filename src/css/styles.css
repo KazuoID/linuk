@@ -54,7 +54,7 @@ li:hover {
 .all_box {
     display: inline-table;
     /* margin: 40px; */
-    /* text-align: center; */
+    text-align: center;
     background: url('https://raw.githubusercontent.com/KazuoID/linuk/refs/heads/main/src/img/nadeshiko/b1.jpg') center/cover no-repeat fixed;
 }
 
@@ -63,7 +63,7 @@ li:hover {
     padding: 20px;
     background: beige;
     margin: 16px;
-    /* text-align: left; */
+    text-align: left;
     border-radius: 20px;
     padding-bottom: 44px;
 }
@@ -86,4 +86,5 @@ li:hover {
     padding: 20px;
 
 }
+
 
