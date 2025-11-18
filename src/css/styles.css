@@ -23,6 +23,10 @@
     margin: 6px;
 }
 
+ul{
+    list-style: none;
+}
+
 .ul_header {
     display: ruby;
     /* text-align: end; */
@@ -86,5 +90,6 @@ li:hover {
     padding: 20px;
 
 }
+
 
 
