@@ -55,11 +55,7 @@ li:hover {
     display: inline-table;
     /* margin: 40px; */
     /* text-align: center; */
-    background-image: image-set("../img/nadeshiko/b1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('../img/nadeshiko/b1.jpg') center/cover no-repeat fixed;
 }
 
 .box {
@@ -88,4 +84,5 @@ li:hover {
     /* margin: 26px; */
     background: burlywood;
     padding: 20px;
+
 }
