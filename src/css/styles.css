@@ -8,14 +8,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-image: image-set("../img/nadeshiko/b1.jpg"); */
+    /* background-image: image-set("../img/nadeshiko/b1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
     background: cadetblue;
+    padding: 10px;
 }
 
 .img_header {
     height: 64px;
     border-radius: 32px;
-    margin: 10px;
+    margin: 6px;
 }
 
 .ul_header {
@@ -48,8 +53,13 @@ li:hover {
 
 .all_box {
     display: inline-table;
-    margin: 40px;
+    /* margin: 40px; */
     /* text-align: center; */
+    background-image: image-set("../img/nadeshiko/b1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .box {
