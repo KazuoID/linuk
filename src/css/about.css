@@ -1,0 +1,15 @@
+.img_about {
+    width: 16%;
+    margin: 14px;
+}
+
+.div_about0 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: url('../img/nadeshiko/b2.jpg') center/cover no-repeat fixed;
+}
+
+.div_about1 {
+    margin-top: 60px;
+}
